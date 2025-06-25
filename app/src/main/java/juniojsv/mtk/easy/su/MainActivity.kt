@@ -1,5 +1,6 @@
 package juniojsv.mtk.easy.su
 
+import android.annotation.SuppressLint
 import android.content.ClipData
 import android.content.ClipboardManager
 import android.content.Context
@@ -8,8 +9,11 @@ import android.content.SharedPreferences
 import android.os.Build
 import android.os.Bundle
 import android.util.Log
+import android.view.View
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
+import androidx.core.content.ContentProviderCompat.requireContext
+import androidx.core.content.ContextCompat
 import androidx.core.content.edit
 import androidx.core.net.toUri
 import juniojsv.mtk.easy.su.databinding.ActivityMainBinding
@@ -136,10 +140,10 @@ class MainActivity : AppCompatActivity(), CoroutineScope {
             }.execute()
         }
     }
-
-    binding.mButtonCopy.setOnClickListener {
-        (getSystemService(Context.CLIPBOARD_SERVICE) as ClipboardManager)
-            .setPrimaryClip(ClipData.newPlainText(getString(R.string.log), binding.mLog.text))
+    @SuppressLint("ServiceCast")
+    fun copy(view: View) {
+        val clipboard = getSystemService(Context.CLIPBOARD_SERVICE) as ClipboardManager
+            clipboard.setPrimaryClip(ClipData.newPlainText(getString(R.string.log), binding.mLog.text))
     }
 }
 
