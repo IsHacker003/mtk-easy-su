@@ -151,7 +151,8 @@
                         android:layout_width="match_parent"
                         android:enabled="false"
                         android:text="@string/copy"
-                        app:icon="@drawable/ic_content_copy_black_24dp" />
+                        app:icon="@drawable/ic_content_copy_black_24dp"
+                        android:onClick="copy"/>
 
                 </LinearLayout>
             </com.google.android.material.card.MaterialCardView>
