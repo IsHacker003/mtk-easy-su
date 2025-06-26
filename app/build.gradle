@@ -24,10 +24,10 @@ android {
 
     defaultConfig {
         applicationId 'juniojsv.mtk.easy.su'
-        minSdkVersion 23
+        minSdkVersion 19
         compileSdk 34
-        versionCode 210
-        versionName "2.2.1"
+        versionCode 211
+        versionName "2.2.2"
     }
 
     buildTypes {
