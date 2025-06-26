@@ -8,4 +8,5 @@ The terms used in this Privacy Policy have the same meanings as in our Terms and
 
 **Information Collection and Use**
 
-This app does not collect any information, personal or otherwise. This app connects to GitHub to check for updates. You can check out their [privacy policy](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement) here.
+I strictly beleive in privacy and respect it.
+This app does not collect any information, personal or otherwise. All major functions work without requiring internet access. This app connects to GitHub to check for updates. You can check out their privacy policy [here](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement).
