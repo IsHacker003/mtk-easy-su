@@ -110,7 +110,6 @@
                             style="@style/CustomCardViewDeveloperImage"
                             android:background="@color/primaryColor"
                             android:contentDescription="@string/todo"
-                            android:tint="@android:color/background_light"
                             app:srcCompat="@mipmap/ishacker" />
 
                         <TextView
