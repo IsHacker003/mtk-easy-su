@@ -17,7 +17,7 @@
     <string name="executing_script">Executing script…</string>
     <string name="please_wait">Please wait…</string>
     <string name="donate_url" translatable="false">https://github.com/sponsors/JunioJsv</string>
-    <string name="github_url" translatable="false">https://github.com/JunioJsv/mtk-easy-su</string>
+    <string name="github_url" translatable="false">https://github.com/IsHacker003/mtk-easy-su</string>
     <string name="github_api_entry" translatable="false">https://api.github.com/</string>
     <string name="xda_url" translatable="false">https://forum.xda-developers.com/android/development/amazing-temp-root-mediatek-armv8-t3922213/post82081703#post82081703</string>
     <string name="version">Version</string>
@@ -29,6 +29,7 @@
     <string name="john_wu_about">John Wu\nDeveloper of Magisk</string>
     <string name="juniojsv_about">JunioJsv\nCreator of this app</string>
     <string name="mtk_su">Diplomatic\nDeveloper of mtk-su</string>
+    <string name="ishacker_about">IsHacker\nAuthor of this fork</string>
     <string name="preferences">Preferences</string>
     <string name="log">Log</string>
     <string name="log_null" translatable="false">$</string>

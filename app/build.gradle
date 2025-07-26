@@ -23,11 +23,11 @@ android {
     }
 
     defaultConfig {
-        applicationId 'juniojsv.mtk.easy.su'
+        applicationId 'com.ishacker.mtkeasysu'
         minSdkVersion 19
         compileSdk 34
-        versionCode 211
-        versionName "2.2.2"
+        versionCode 212
+        versionName "2.2.3"
     }
 
     buildTypes {
@@ -42,7 +42,7 @@ android {
         viewBinding true
         buildConfig true
     }
-    namespace 'juniojsv.mtk.easy.su'
+    namespace 'com.ishacker.mtkeasysu'
 }
 
 dependencies {

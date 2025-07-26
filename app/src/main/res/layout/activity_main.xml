@@ -101,6 +101,26 @@
                             android:text="@string/juniojsv_about" />
                     </LinearLayout>
 
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <com.google.android.material.imageview.ShapeableImageView
+                            style="@style/CustomCardViewDeveloperImage"
+                            android:background="@color/primaryColor"
+                            android:contentDescription="@string/todo"
+                            android:tint="@android:color/background_light"
+                            app:srcCompat="@mipmap/ishacker" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="8dp"
+                            android:lineSpacingExtra="4sp"
+                            android:text="@string/ishacker_about" />
+                    </LinearLayout>
+
                     <com.google.android.material.button.MaterialButton
                         android:id="@+id/mButtonDonate"
                         style="@style/CustomButtonOutlined"

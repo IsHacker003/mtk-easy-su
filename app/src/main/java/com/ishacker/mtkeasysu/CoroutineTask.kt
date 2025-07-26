@@ -1,4 +1,4 @@
-package juniojsv.mtk.easy.su
+package com.ishacker.mtkeasysu
 
 import kotlinx.coroutines.*
 import kotlin.coroutines.CoroutineContext

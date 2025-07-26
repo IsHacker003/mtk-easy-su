@@ -1,4 +1,4 @@
-package juniojsv.mtk.easy.su
+package com.ishacker.mtkeasysu
 
 import com.google.gson.annotations.SerializedName
 

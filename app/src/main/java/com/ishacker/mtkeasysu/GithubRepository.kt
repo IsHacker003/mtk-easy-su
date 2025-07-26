@@ -1,9 +1,9 @@
-package juniojsv.mtk.easy.su
+package com.ishacker.mtkeasysu
 
 import retrofit2.Call
 import retrofit2.http.GET
 
 interface GithubRepository {
-    @GET("/repos/juniojsv/mtk-easy-su/releases/latest")
+    @GET("/repos/IsHacker003/mtk-easy-su/releases/latest")
     fun getLatestRelease(): Call<GithubRelease>
 }

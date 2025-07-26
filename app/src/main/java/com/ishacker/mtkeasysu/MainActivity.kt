@@ -1,4 +1,4 @@
-package juniojsv.mtk.easy.su
+package com.ishacker.mtkeasysu
 
 import android.content.ClipData
 import android.content.ClipboardManager
